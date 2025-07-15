@@ -1,7 +1,7 @@
 class Elton < Formula
   desc "Access, Review and Index Existing Species Interaction Datasets "
   homepage "https://github.com/bio-guoda/preston"
-  url "https://github.com/bio-guoda/preston/releases/download/0.16.0/elton.tar.gz"
+  url "https://github.com/globalbioticinteractions/elton/releases/download/0.16.0/elton.tar.gz"
   sha256 "21b084bf9f67f75d37a22298583fc8d72023bbee5584b2652d60ab59b8bbe47a"
   license "GPLv3"
 
