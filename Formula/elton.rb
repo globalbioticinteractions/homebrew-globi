@@ -13,7 +13,7 @@ class Elton < Formula
   end
 
   test do
-    output = shell_output("#{bin}/elton", "interactions", "globalbalbioticinteractions/template-dataset")
+    output = shell_output("#{bin}/elton track globalbioticinteractions/template-dataset && #{bin}/elton interactions globalbioticinteractions/template-dataset")
     assert_match "sourceTaxonName", output
   end
 end
