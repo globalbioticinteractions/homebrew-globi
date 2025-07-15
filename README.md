@@ -1,2 +1,2 @@
-# homebrew-preston
-Formula to help install preston on Mac OS
+# homebrew-globi
+Formula to help install tools used by GloBI (e.g., preston, elton, nomer) on Mac OS
