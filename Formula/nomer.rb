@@ -14,7 +14,7 @@ class Nomer < Formula
 
   test do
     output = pipe_output("#{bin}/nomer append --include-header gbif-parse", "\tHomo sapiens")
-    assert_match "resolvedTaxonRank", output
+    assert_match "resolvedRank", output
     assert_match "SAME_AS", output
   end
 end
