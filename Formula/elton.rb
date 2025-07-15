@@ -9,7 +9,6 @@ class Elton < Formula
 
   def install
     libexec.install "lib/elton.jar"
-    bash_completion.install "etc/bash_completion.d/elton_completion"
     bin.write_jar_script libexec/"elton.jar", "elton"
   end
 
