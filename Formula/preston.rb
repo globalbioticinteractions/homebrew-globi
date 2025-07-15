@@ -9,6 +9,7 @@ class Preston < Formula
 
   def install
     libexec.install "lib/preston.jar"
+    bash_completion.install "etc/bash_completion.d/preston_completion"
     bin.write_jar_script libexec/"preston.jar", "preston"
   end
 

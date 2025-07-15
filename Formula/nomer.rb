@@ -9,6 +9,7 @@ class Nomer < Formula
 
   def install
     libexec.install "lib/nomer.jar"
+    bash_completion.install "etc/bash_completion.d/nomer_completion"
     bin.write_jar_script libexec/"nomer.jar", "nomer"
   end
 
