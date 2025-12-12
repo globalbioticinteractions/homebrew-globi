@@ -1,8 +1,8 @@
 class Preston < Formula
   desc "Biodiversity Dataset Tracker"
   homepage "https://github.com/bio-guoda/preston"
-  url "https://github.com/bio-guoda/preston/releases/download/0.11.0/preston.tar.gz"
-  sha256 "19d70853f3cc1146f7dccef34dad7525c37bd26e6e9a38d980718fddcc7c7100"
+  url "https://github.com/bio-guoda/preston/releases/download/0.11.3/preston.tar.gz"
+  sha256 "db2cc5ee73cef0937d1fc238e950a7d536f7ba9e960704e5f54fa56dfa6b532c"
   license "MIT"
 
   depends_on "openjdk@21"
