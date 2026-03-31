@@ -1,8 +1,8 @@
 class Elton < Formula
   desc "Access, Review and Index Existing Species Interaction Datasets "
   homepage "https://github.com/globalbioticinteractions/elton"
-  url "https://github.com/globalbioticinteractions/elton/releases/download/0.16.7/elton.tar.gz"
-  sha256 "a823b03c327571e9d8c67636e59b7c07536b43ae4c208be58c5c90f15a0595f4"
+  url "https://github.com/globalbioticinteractions/elton/releases/download/0.16.8/elton.tar.gz"
+  sha256 "4150f032d16bfe3f410690efdc227a0f857ef4e8de877594952a0471dbec971e"
   license "GPLv3"
 
   depends_on "openjdk@21"
