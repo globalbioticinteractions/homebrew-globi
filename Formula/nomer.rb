@@ -1,8 +1,8 @@
 class Nomer < Formula
   desc "Maps Identifiers and Names to Other Identifiers and Names"
   homepage "https://github.com/globalbioticinteractions/nomer"
-  url "https://github.com/globalbioticinteractions/nomer/releases/download/0.6.1/nomer.tar.gz"
-  sha256 "b2ae7c317d4f89788a7c623dd73671522fc908439ba3ccbb4b4779ce3f51224a"
+  url "https://github.com/globalbioticinteractions/nomer/releases/download/0.6.3/nomer.tar.gz"
+  sha256 "b41dd9a30daea451faa8fa8936fa82f15e19c6983a8b685abc4b0d37ac3494f4"
   license "GPLv3"
 
   depends_on "openjdk@21"
